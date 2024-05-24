@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+    <script>
+        var name = prompt("What is Your Name?");
+        if (name == "" || name == null){
+            txt = "No name provided";
+        }else {
+            txt = "Hello, " + name + "!";
+        }
+        alert(txt);
+        let write = confirm("Do you want to display on page?")
+        if(write){
+            document.write(name)
+        }else{
+            document.write("As your Wish!")
+        }   
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

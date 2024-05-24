@@ -1,0 +1,84 @@
+body {
+    background-color: mintcream;
+    margin-top: 10px;
+    padding-top: 10px;
+    overflow-x: hidden;
+}
+
+.heading {
+    width: 100%;
+    display: block;
+    text-align: center;
+    top: 0;
+    background-color: gainsboro;
+}
+
+.sci {
+    background-color: ghostwhite;
+}
+
+div p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: coral 2px solid;
+    display: flex;
+}
+
+@media only screen and (max-width: 1920px) {
+    body {
+        background-color: seashell;
+        width: 100%;
+    } 
+    div {
+        float: left;
+        display: grid;
+        grid: auto auto;
+        grid-gap: 10px;
+        width: 45% ;   
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: lightgoldenrodyellow;
+    } 
+    div {
+        display: contents; 
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: aquamarine;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    } 
+    div {
+        display: contents;
+    }
+}
+
+
+
+/*  background-color: gainsboro;
+    background-color: ghostwhite;
+    background-color: honeydew;
+    background-color: ivory;
+    background-color: lightgrey;
+    background-color: whitesmoke;
+    background-color: snow;
+    background-color: seashell;
+
+
+    phone    400 X 850
+    tablet  1200 X 700
+    laptop  1920 X 1080
+    */
+

@@ -1,0 +1,17 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    position: relative;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes color {
+    0%{background-color: antiquewhite; left:0px; top:0px;}
+    25%{background-color: aqua; left:200px; top:0px;}
+    50%{background-color: aquamarine;left: 200px; top:200px;}
+    75%{background-color: beige; left:0px; top:200px;}
+    100%{background-color: bisque;left:0px; top:0px;}
+}

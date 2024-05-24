@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script>   
+        const number1 = parseFloat(prompt ('Enter the first number: '));  
+        const operator = prompt('Enter operator to perform the calculation ( either +, -, * or / ): '); 
+        const number2 = parseFloat(prompt ('Enter the second number: '));  
+        let result; 
+        if (operator == '+') {  
+            result = number1 + number2;  
+        }  
+        else if (operator == '-') {  
+            result = number1 - number2;  
+        }  
+        else if (operator == '*') { 
+            result = number1 * number2;  
+        }  
+        else {  
+            result = number1 / number2; 
+        }  
+        window.alert(number1 + " " + operator + " " + number2 +" = " + result); 
+        </script>
+</head>
+<body>
+    
+</body>
+</html>
