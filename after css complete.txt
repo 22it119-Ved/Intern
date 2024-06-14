@@ -1,6 +1,0 @@
-after css complete ✔
-bootstrap (1 Day) 
-JS (basic, validation, dom manipulation, dialog box) ✔
-Portfolio (UI)
-git vs github
-git commands
